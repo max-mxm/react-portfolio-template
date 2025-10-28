@@ -1,5 +1,5 @@
 {
-    "name": "Mark Choi",
+    "name": "Maxime",
 
     "profilePictureUrl": "images/pictures/profile-picture.jpg",
     "resumePdfUrl": "",
@@ -10,48 +10,44 @@
 
     "locales": {
         "en": {
-            "localized_name": "Mark Choi",
-            "localized_name_stylized": " [[Mark {{Choi}}]]",
+            "localized_name": "Maxime",
+            "localized_name_stylized": "{{Maxime}}",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
-                "Backend Developer",
-                "Frontend Developer",
-                "DevOps Engineer",
-                "UX Designer"
-            ],
-            "name_pronunciation_ipa": "/mark chwe/",
-            "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+                "Full-Stack Engineer",
+                "CTO / Tech Lead",
+                "Automation Specialist",
+                "AI Integration Expert"
+            ]
         },
         "es": {
             "status_message_available_for_freelance": "¡Disponible para freelance!",
             "roles": [
-                "Desarrollador Backend",
-                "Desarrollador Frontend",
-                "Ingeniero DevOps",
-                "Diseñador UX"
+                "Ingeniero Full-Stack",
+                "CTO / Tech Lead",
+                "Especialista en Automatización",
+                "Experto en Integración IA"
             ]
         },
         "fr": {
             "status_message_available_for_freelance": "Disponible pour freelance !",
             "roles": [
-                "Développeur Backend",
-                "Développeur Frontend",
-                "Ingénieur DevOps",
-                "Designer UX"
+                "Ingénieur Full-Stack",
+                "CTO / Tech Lead",
+                "Spécialiste Automatisation",
+                "Expert Intégration IA"
             ]
         },
         "ko": {
-            "localized_name": "최민석",
-            "localized_name_stylized": "{{최}}민석",
+            "localized_name": "Maxime",
+            "localized_name_stylized": "{{Maxime}}",
             "status_message_available_for_freelance": "프리랜스 가능합니다!",
             "roles": [
-                "백엔드 개발자",
-                "프론트엔드 개발자",
-                "데브옵스 엔지니어",
-                "UX 디자이너"
-            ],
-            "name_pronunciation_ipa": "/chwe min-seok/",
-            "name_pronunciation_audio_url": "audio/korean-name-pronunciation.mp3"
+                "풀스택 엔지니어",
+                "CTO / 기술 리드",
+                "자동화 전문가",
+                "AI 통합 전문가"
+            ]
         }
     }
 }

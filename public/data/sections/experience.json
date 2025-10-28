@@ -40,45 +40,45 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/timeline-place-sapphire-studio.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2016, "month": 3},
-                    "dateEnd": {"year": 2018, "month": 6},
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "#0066CC", "fill": "#FFF"},
+                    "dateStart": {"year": 2018, "month": 1},
+                    "dateEnd": {"year": 2019, "month": 12},
                     "locales": {
                         "en": {
-                            "title": "{{Backend}} Developer",
-                            "province": "Toronto",
-                            "country": "Canada",
-                            "institution": "Sapphire Studio",
-                            "text": "Developed and maintained [[scalable backend systems]] for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
+                            "title": "{{Java}} Developer",
+                            "province": "Paris",
+                            "country": "France",
+                            "institution": "Capgemini - Client: Total",
+                            "text": "Industrial IoT project for supervision and maintenance of connected equipment. Development of [[robust microservices]] for IoT data collection and processing.",
                             "list": [],
-                            "tags": ["PHP8.0", "MySQL", "Laravel"]
+                            "tags": ["Java", "Spring Boot", "Kafka", "Docker", "IoT"]
                         },
                         "es": {
-                            "title": "Desarrollador {{Backend}}",
-                            "province": "Toronto",
-                            "country": "Canadá",
-                            "institution": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve [[sistemas backend escalables]] para varios clientes, optimizando el rendimiento de bases de datos e implementando APIs RESTful para mejorar la funcionalidad de las aplicaciones.",
+                            "title": "Desarrollador {{Java}}",
+                            "province": "París",
+                            "country": "Francia",
+                            "institution": "Capgemini - Cliente: Total",
+                            "text": "Proyecto IoT industrial para supervisión y mantenimiento de equipos conectados. Desarrollo de [[microservicios robustos]] para recopilación y procesamiento de datos IoT.",
                             "list": [],
                             "tags": []
                         },
                         "fr": {
-                            "title": "Développeur {{Backend}}",
-                            "province": "Toronto",
-                            "country": "Canada",
-                            "institution": "Sapphire Studio",
-                            "text": "Développement et maintenance de [[systèmes backend évolutifs]] pour divers clients, optimisation des performances des bases de données et mise en place d’API RESTful pour améliorer les fonctionnalités des applications.",
+                            "title": "Développeur {{Java}}",
+                            "province": "Paris",
+                            "country": "France",
+                            "institution": "Capgemini - Client : Total",
+                            "text": "Projet IoT industriel pour la supervision et la maintenance d'équipements connectés. Développement de [[microservices robustes]] pour la collecte et le traitement des données IoT.",
                             "list": [],
                             "tags": []
                         },
                         "ko": {
-                            "title": "{{백엔드}} 개발자",
-                            "province": "토론토",
-                            "country": "캐나다",
-                            "institution": "Sapphire Studio",
-                            "text": "다양한 클라이언트를 위한 [[확장 가능한 백엔드 시스템]]을 개발하고 유지보수했으며, 데이터베이스 성능을 최적화하고 RESTful API를 구현하여 애플리케이션 기능을 향상시켰습니다.",
+                            "title": "{{Java}} 개발자",
+                            "province": "파리",
+                            "country": "프랑스",
+                            "institution": "Capgemini - 고객: Total",
+                            "text": "연결된 장비의 감독 및 유지보수를 위한 산업용 IoT 프로젝트. IoT 데이터 수집 및 처리를 위한 [[견고한 마이크로서비스]] 개발.",
                             "list": [],
                             "tags": []
                         }
@@ -86,45 +86,45 @@
                 },
                 {
                     "id": 2,
-                    "img": "images/pictures/timeline-place-coursera.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2018, "month": 6},
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "#61DAFB", "fill": "#20232A"},
+                    "dateStart": {"year": 2019, "month": 1},
                     "dateEnd": {"year": 2020, "month": 12},
                     "locales": {
                         "en": {
-                            "title": "{{Full-Stack}} Engineer",
+                            "title": "{{React}} Frontend Developer",
                             "province": "",
-                            "country": "Remote",
-                            "institution": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
+                            "country": "Internal Project",
+                            "institution": "Personal Training",
+                            "text": "Personal training and participation in an internal React project. Development of [[dynamic and responsive components]]. Skills improvement on modern frontend and SPA architectures.",
                             "list": [],
-                            "tags": ["Svelte", "NodeJS", "Laravel", "REST APIs", "Docker"]
+                            "tags": ["React", "Redux", "Node.js", "JavaScript"]
                         },
                         "es": {
-                            "title": "Ingeniero {{Full-Stack}}",
+                            "title": "Desarrollador Frontend {{React}}",
                             "province": "",
-                            "country": "Remoto",
-                            "institution": "Coursera",
-                            "text": "Trabajé en la mejora del sitio web de Coursera implementando nuevas funciones y optimizando la experiencia del usuario, utilizando tecnologías tanto de frontend como de backend para garantizar una funcionalidad fluida.",
+                            "country": "Proyecto Interno",
+                            "institution": "Formación Personal",
+                            "text": "Formación personal y participación en proyecto React interno. Desarrollo de [[componentes dinámicos y responsive]]. Mejora de competencias en frontend moderno y arquitecturas SPA.",
                             "list": [],
                             "tags": []
                         },
                         "fr": {
-                            "title": "Ingénieur {{Full-Stack}}",
+                            "title": "Développeur Frontend {{React}}",
                             "province": "",
-                            "country": "Télétravail",
-                            "institution": "Coursera",
-                            "text": "Participation à l'amélioration du site web de Coursera en développant de nouvelles fonctionnalités et en optimisant l’expérience utilisateur, en utilisant des technologies frontend et backend pour assurer un fonctionnement fluide.",
+                            "country": "Projet Interne",
+                            "institution": "Formation Personnelle",
+                            "text": "Formation personnelle et participation à un projet interne React. Développement de [[composants dynamiques et responsive]]. Montée en compétence sur le front moderne et les architectures SPA.",
                             "list": [],
                             "tags": []
                         },
                         "ko": {
-                            "title": "{{풀스택}} 엔지니어",
+                            "title": "{{React}} 프론트엔드 개발자",
                             "province": "",
-                            "country": "원격",
-                            "institution": "Coursera",
-                            "text": "Coursera 웹사이트의 기능을 향상시키기 위해 새로운 기능을 구현하고 사용자 경험을 개선하는 작업을 수행했으며, 프론트엔드와 백엔드 기술을 모두 활용하여 원활한 동작을 보장했습니다.",
+                            "country": "내부 프로젝트",
+                            "institution": "개인 교육",
+                            "text": "개인 교육 및 내부 React 프로젝트 참여. [[동적이고 반응형 컴포넌트]] 개발. 현대적인 프론트엔드 및 SPA 아키텍처에 대한 역량 향상.",
                             "list": [],
                             "tags": []
                         }
@@ -132,45 +132,45 @@
                 },
                 {
                     "id": 3,
-                    "img": "images/pictures/timeline-place-adobe.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2020, "month": 12},
-                    "dateEnd": {"year": 2022, "month": 11},
+                    "img": "",
+                    "faIcon": "fa-solid fa-shield-halved",
+                    "faIconColors": {"bg": "#1F2937", "fill": "#10B981"},
+                    "dateStart": {"year": 2020, "month": 1},
+                    "dateEnd": {"year": 2021, "month": 12},
                     "locales": {
                         "en": {
-                            "title": "{{Backend}} Engineer",
-                            "province": "New York",
-                            "country": "US",
-                            "institution": "Adobe Inc",
-                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
+                            "title": "{{Full-Stack}} Developer",
+                            "province": "Paris",
+                            "country": "France",
+                            "institution": "Ministry of Defense",
+                            "text": "Internal tracking application for administrative services. Frontend screen design and [[integration with backend APIs]].",
                             "list": [],
-                            "tags": ["JavaScript", "Flutter", "MongoDB", "CodeIgniter", "Kubernetes"]
+                            "tags": ["Angular 8", "Java", "Spring Boot", "Oracle DB"]
                         },
                         "es": {
-                            "title": "Ingeniero {{Backend}}",
-                            "province": "Nueva York",
-                            "country": "EE. UU.",
-                            "institution": "Adobe Inc",
-                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia del procesamiento de datos mediante funciones en la nube.",
+                            "title": "Desarrollador {{Full-Stack}}",
+                            "province": "París",
+                            "country": "Francia",
+                            "institution": "Ministerio de Defensa",
+                            "text": "Aplicación de seguimiento interno para servicios administrativos. Diseño de pantallas frontend e [[integración con APIs backend]].",
                             "list": [],
                             "tags": []
                         },
                         "fr": {
-                            "title": "Ingénieur {{Backend}}",
-                            "province": "New York",
-                            "country": "États-Unis",
-                            "institution": "Adobe Inc",
-                            "text": "Participation au développement de systèmes backend robustes pour Adobe Creative Cloud, intégration de services tiers et amélioration de l’efficacité du traitement des données via des fonctions cloud.",
+                            "title": "Développeur {{Full-Stack}}",
+                            "province": "Paris",
+                            "country": "France",
+                            "institution": "Ministère de la Défense",
+                            "text": "Application de suivi interne pour les services administratifs. Conception d'écrans front et [[intégration avec les API back-end]].",
                             "list": [],
                             "tags": []
                         },
                         "ko": {
-                            "title": "{{백엔드}} 엔지니어",
-                            "province": "뉴욕",
-                            "country": "미국",
-                            "institution": "Adobe Inc",
-                            "text": "Adobe Creative Cloud를 위한 견고한 백엔드 시스템 개발에 기여하였으며, 서드파티 서비스 통합 및 클라우드 기능을 활용한 데이터 처리 효율 향상에 집중했습니다.",
+                            "title": "{{풀스택}} 개발자",
+                            "province": "파리",
+                            "country": "프랑스",
+                            "institution": "국방부",
+                            "text": "관리 서비스를 위한 내부 추적 애플리케이션. 프론트엔드 화면 설계 및 [[백엔드 API와의 통합]].",
                             "list": [],
                             "tags": []
                         }
@@ -179,68 +179,180 @@
                 {
                     "id": 4,
                     "img": "",
-                    "faIcon": "fa-brands fa-apple",
-                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
-                    "dateStart": {"year": 2022, "month": 12},
-                    "dateEnd": {"now": true},
+                    "faIcon": "fa-solid fa-shield-halved",
+                    "faIconColors": {"bg": "#1F2937", "fill": "#10B981"},
+                    "dateStart": {"year": 2021, "month": 1},
+                    "dateEnd": {"year": 2022, "month": 12},
                     "locales": {
                         "en": {
-                            "title": "{{Senior Backend}} Developer",
-                            "province": "California",
-                            "country": "US",
-                            "institution": "Apple Inc",
-                            "text": "Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:",
-                            "list": [
-                                "Security",
-                                "Scalability to handle millions of users globally",
-                                "Developing RESTful APIs",
-                                "Optimizing database performance with PostgreSQL",
-                                "Building services with Swift, PHP, and GraphQL"
-                            ],
-                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                            "title": "{{Senior React}} Developer",
+                            "province": "Paris",
+                            "country": "France",
+                            "institution": "Ministry of Defense",
+                            "text": "Strategic project for improving HR and security management tools. [[Frontend integration and performance optimization]]. Critical component refactoring and technical support.",
+                            "list": [],
+                            "tags": ["React", "Java", "PostgreSQL", "Jenkins"]
                         },
                         "es": {
-                            "title": "Desarrollador {{Senior Backend}}",
-                            "province": "California",
-                            "country": "EE. UU.",
-                            "institution": "Apple Inc",
-                            "text": "Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:",
+                            "title": "Desarrollador {{Senior React}}",
+                            "province": "París",
+                            "country": "Francia",
+                            "institution": "Ministerio de Defensa",
+                            "text": "Proyecto estratégico para mejorar herramientas de gestión RH y seguridad. [[Integración frontend y optimización del rendimiento]]. Refactorización de componentes críticos y soporte técnico.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "Développeur {{Senior React}}",
+                            "province": "Paris",
+                            "country": "France",
+                            "institution": "Ministère de la Défense",
+                            "text": "Projet stratégique d'amélioration des outils de gestion RH et de sécurité. [[Intégration front-end et optimisation de la performance]]. Refactorisation de composants critiques et support technique.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "ko": {
+                            "title": "{{시니어 React}} 개발자",
+                            "province": "파리",
+                            "country": "프랑스",
+                            "institution": "국방부",
+                            "text": "인사 및 보안 관리 도구 개선을 위한 전략적 프로젝트. [[프론트엔드 통합 및 성능 최적화]]. 중요한 컴포넌트 리팩토링 및 기술 지원.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-landmark",
+                    "faIconColors": {"bg": "#1E3A8A", "fill": "#FFFFFF"},
+                    "dateStart": {"year": 2022, "month": 1},
+                    "dateEnd": {"year": 2024, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{Tech Lead}} / Senior Developer",
+                            "province": "Paris",
+                            "country": "France",
+                            "institution": "Ministry of Interior",
+                            "text": "Internal platform for staff and administrative document management. [[Technical leadership of a 6-person team]] with focus on:",
                             "list": [
-                                "Seguridad",
-                                "Escalabilidad para manejar millones de usuarios a nivel global",
-                                "Desarrollo de APIs RESTful",
-                                "Optimización del rendimiento de bases de datos con PostgreSQL",
-                                "Creación de servicios con Swift, PHP y GraphQL"
+                                "Training junior developers",
+                                "Code review and technical decision-making",
+                                "Setting up common components to standardize interfaces",
+                                "Reducing frontend technical debt"
+                            ],
+                            "tags": ["React", "Java", "TypeScript", "Keycloak", "Jenkins"]
+                        },
+                        "es": {
+                            "title": "{{Tech Lead}} / Desarrollador Senior",
+                            "province": "París",
+                            "country": "Francia",
+                            "institution": "Ministerio del Interior",
+                            "text": "Plataforma interna de gestión de personal y documentos administrativos. [[Liderazgo técnico de un equipo de 6 personas]] con enfoque en:",
+                            "list": [
+                                "Formación de desarrolladores junior",
+                                "Revisión de código y toma de decisiones técnicas",
+                                "Implementación de componentes comunes para estandarizar interfaces",
+                                "Reducción de la deuda técnica frontend"
                             ],
                             "tags": []
                         },
                         "fr": {
-                            "title": "Développeur {{Senior Backend}}",
-                            "province": "Californie",
-                            "country": "États-Unis",
-                            "institution": "Apple Inc",
-                            "text": "Responsable d'une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services Apple, en se concentrant sur :",
+                            "title": "{{Tech Lead}} / Développeur Senior",
+                            "province": "Paris",
+                            "country": "France",
+                            "institution": "Ministère de l'Intérieur",
+                            "text": "Plateforme interne de gestion des effectifs et documents administratifs. [[Pilotage technique d'une équipe de 6 personnes]] avec focus sur :",
                             "list": [
-                                "La sécurité",
-                                "L’évolutivité pour gérer des millions d’utilisateurs dans le monde",
-                                "Le développement d’API RESTful",
-                                "L’optimisation des performances des bases de données avec PostgreSQL",
-                                "La création de services avec Swift, PHP et GraphQL"
+                                "Formation des développeurs juniors",
+                                "Revue de code et pilotage technique",
+                                "Mise en place de composants communs pour uniformiser les interfaces",
+                                "Réduction de la dette technique front-end"
                             ],
                             "tags": []
                         },
                         "ko": {
-                            "title": "{{시니어 백엔드}} 개발자",
-                            "province": "캘리포니아",
-                            "country": "미국",
-                            "institution": "Apple Inc",
-                            "text": "Apple의 서비스를 위한 백엔드 솔루션을 설계하고 구현하는 개발팀을 이끌며 다음에 중점을 두고 있습니다:",
+                            "title": "{{테크 리드}} / 시니어 개발자",
+                            "province": "파리",
+                            "country": "프랑스",
+                            "institution": "내무부",
+                            "text": "직원 및 행정 문서 관리를 위한 내부 플랫폼. 다음에 중점을 둔 [[6명 팀의 기술 리더십]]:",
                             "list": [
-                                "보안",
-                                "전 세계 수백만 사용자를 처리할 수 있는 확장성",
-                                "RESTful API 개발",
-                                "PostgreSQL을 사용한 데이터베이스 성능 최적화",
-                                "Swift, PHP, GraphQL로 서비스 구축"
+                                "주니어 개발자 교육",
+                                "코드 리뷰 및 기술적 의사결정",
+                                "인터페이스 표준화를 위한 공통 컴포넌트 설정",
+                                "프론트엔드 기술 부채 감소"
+                            ],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {"bg": "#7C3AED", "fill": "#FFF"},
+                    "dateStart": {"year": 2024, "month": 1},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{CTO}} / Automation Lead",
+                            "province": "Toulouse",
+                            "country": "France",
+                            "institution": "Davancorp (Startup)",
+                            "text": "Startup specialized in short-term rental management. [[Complete automation of inter-service workflows]] with focus on:",
+                            "list": [
+                                "Workflow automation (cleaning, scheduling, customer support)",
+                                "Development of a property inspection web/mobile app",
+                                "AI tools integration (OpenAI, Vercel AI SDK)",
+                                "Internal training on no-code tools and prompt engineering",
+                                "Technical stack management (infra, security, monitoring)"
+                            ],
+                            "tags": ["Next.js", "Supabase", "Make", "n8n", "GoHighLevel", "AI", "Node.js"]
+                        },
+                        "es": {
+                            "title": "{{CTO}} / Responsable Automatización",
+                            "province": "Toulouse",
+                            "country": "Francia",
+                            "institution": "Davancorp (Startup)",
+                            "text": "Startup especializada en gestión de alquileres de corta duración. [[Automatización completa de flujos de trabajo interservicios]] con enfoque en:",
+                            "list": [
+                                "Automatización de flujos (limpieza, planificación, soporte cliente)",
+                                "Desarrollo de app web/móvil de inspección de propiedades",
+                                "Integración de herramientas IA (OpenAI, Vercel AI SDK)",
+                                "Formación interna en herramientas no-code y prompt engineering",
+                                "Gestión de stack técnico (infra, seguridad, monitoreo)"
+                            ],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "{{CTO}} / Responsable Automatisation",
+                            "province": "Toulouse",
+                            "country": "France",
+                            "institution": "Davancorp (Startup)",
+                            "text": "Startup spécialisée dans la gestion locative courte durée. [[Automatisation complète des workflows inter-services]] avec focus sur :",
+                            "list": [
+                                "Automatisation des workflows (nettoyage, ordonnancement, support client)",
+                                "Développement d'une application web/mobile d'état des lieux",
+                                "Intégration d'outils IA (OpenAI, Vercel AI SDK)",
+                                "Formation interne sur les outils no-code et le prompt engineering",
+                                "Gestion technique de la stack globale (infra, sécurité, monitoring)"
+                            ],
+                            "tags": []
+                        },
+                        "ko": {
+                            "title": "{{CTO}} / 자동화 리드",
+                            "province": "툴루즈",
+                            "country": "프랑스",
+                            "institution": "Davancorp (스타트업)",
+                            "text": "단기 임대 관리 전문 스타트업. 다음에 중점을 둔 [[서비스 간 워크플로우의 완전한 자동화]]:",
+                            "list": [
+                                "워크플로우 자동화 (청소, 일정 관리, 고객 지원)",
+                                "부동산 점검 웹/모바일 앱 개발",
+                                "AI 도구 통합 (OpenAI, Vercel AI SDK)",
+                                "노코드 도구 및 프롬프트 엔지니어링에 대한 내부 교육",
+                                "기술 스택 관리 (인프라, 보안, 모니터링)"
                             ],
                             "tags": []
                         }
