@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation assets (images)
+docs/assets/*.png
+docs/assets/*.jpg
+docs/assets/*.jpeg
+docs/assets/*.gif
+
+# Public assets (except data)
+public/images/
+public/audio/
+
+# Git
+.git/

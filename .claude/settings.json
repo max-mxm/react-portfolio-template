@@ -1,0 +1,99 @@
+{
+  "projectInfo": {
+    "name": "React Portfolio Template",
+    "version": "2.0.3",
+    "type": "React SPA",
+    "framework": "React 18 + Vite 6 + Bootstrap 5"
+  },
+  "agentBehavior": {
+    "alwaysSearchBeforeCreating": true,
+    "preferExistingPatterns": true,
+    "enforceI18n": true,
+    "enforceAccessibility": true,
+    "verboseLogging": false
+  },
+  "codeStyle": {
+    "componentStyle": "functional",
+    "stateManagement": "hooks",
+    "importOrder": [
+      "react",
+      "react-ecosystem",
+      "third-party",
+      "local-components",
+      "hooks-utils",
+      "styles"
+    ],
+    "preferredQuotes": "single",
+    "semicolons": false,
+    "indentation": 4,
+    "maxLineLength": 120
+  },
+  "testing": {
+    "requireManualTesting": true,
+    "testViewports": [
+      {"name": "Mobile", "width": 375, "height": 667},
+      {"name": "Tablet", "width": 768, "height": 1024},
+      {"name": "Desktop", "width": 1920, "height": 1080}
+    ],
+    "testThemes": ["dark", "light"],
+    "testLanguages": ["en", "es", "fr", "ko"]
+  },
+  "i18n": {
+    "enabled": true,
+    "defaultLanguage": "en",
+    "supportedLanguages": ["en", "es", "fr", "ko"],
+    "translationFile": "public/data/strings.json",
+    "requireAllTranslations": true
+  },
+  "performance": {
+    "maxBundleSize": 500,
+    "warnThreshold": 400,
+    "enableCodeSplitting": true,
+    "enableLazyLoading": true
+  },
+  "filePatterns": {
+    "components": "src/components/**/*.jsx",
+    "hooks": "src/hooks/**/*.js",
+    "data": "public/data/**/*.json",
+    "styles": "src/**/*.scss",
+    "assets": "public/images/**/*"
+  },
+  "autoCompletion": {
+    "componentSnippets": true,
+    "importSuggestions": true,
+    "propTypesSuggestions": true
+  },
+  "warnings": {
+    "missingPropTypes": true,
+    "hardcodedStrings": true,
+    "unusedImports": true,
+    "consoleStatements": true,
+    "inlineStyles": true,
+    "missingAltText": true
+  },
+  "customRules": {
+    "noClassComponents": true,
+    "noInlineStyles": true,
+    "requirePropTypes": true,
+    "requireI18nForText": true,
+    "useBootstrapClasses": true,
+    "followImportOrder": true
+  },
+  "gitWorkflow": {
+    "commitMessageFormat": "conventional",
+    "requireLintBeforeCommit": true,
+    "requireBuildCheckBeforeCommit": false
+  },
+  "deployment": {
+    "platform": "github-pages",
+    "basePath": "/react-portfolio-template/",
+    "buildCommand": "npm run build",
+    "outputDir": "dist"
+  },
+  "documentation": {
+    "maintainReadme": true,
+    "maintainChangelog": false,
+    "generateJSDocs": false,
+    "componentDocumentation": "propTypes"
+  }
+}

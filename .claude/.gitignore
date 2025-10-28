@@ -1,0 +1,14 @@
+# Claude Code Local Configuration
+# Add any local-only configuration files here
+
+# Local settings that override project settings
+settings.local.json
+
+# Personal notes and experiments
+notes.md
+experiments/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
