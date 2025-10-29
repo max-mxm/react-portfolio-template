@@ -1,0 +1,23 @@
+# robots.txt pour maxime-morellon.dev
+# Maxime Morellon - Développeur React/Next.js Freelance Paris
+
+User-agent: *
+Allow: /
+
+# Fichiers et dossiers à ne pas indexer
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://maxime-morellon.dev/sitemap.xml
+
+# Moteurs de recherche spécifiques
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
