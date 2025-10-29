@@ -47,20 +47,20 @@
                     "link": {"href": "", "tooltipString": ""},
                     "locales": {
                         "en": {
-                            "title": "{{Full-Stack}} Development",
-                            "text": "Complete web applications from backend to frontend with modern technologies!"
+                            "title": "{{Frontend Expert}} React / Next.js",
+                            "text": "Building modern, performant web applications with React and Next.js!"
                         },
                         "es": {
-                            "title": "Desarrollo {{Full-Stack}}",
-                            "text": "¡Aplicaciones web completas desde backend hasta frontend con tecnologías modernas!"
+                            "title": "{{Experto Frontend}} React / Next.js",
+                            "text": "¡Construcción de aplicaciones web modernas y eficientes con React y Next.js!"
                         },
                         "fr": {
-                            "title": "Développement {{Full-Stack}}",
-                            "text": "Applications web complètes du backend au frontend avec des technologies modernes !"
+                            "title": "{{Expert Frontend}} React / Next.js",
+                            "text": "Création d'applications web modernes et performantes avec React et Next.js !"
                         },
                         "ko": {
-                            "title": "{{풀스택}} 개발",
-                            "text": "최신 기술로 백엔드부터 프론트엔드까지 완전한 웹 애플리케이션을 구축합니다!"
+                            "title": "{{프론트엔드 전문가}} React / Next.js",
+                            "text": "React와 Next.js로 최신 고성능 웹 애플리케이션 구축!"
                         }
                     }
                 },
@@ -141,32 +141,6 @@
                             "text": "성장하는 기술 회사를 위한 기술 리더십 및 전략적 비전!"
                         }
                     }
-                },
-                {
-                    "id": 5,
-                    "img": "",
-                    "faIcon": "fa-solid fa-palette",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "link": {"href": "", "tooltipString": ""},
-                    "locales": {
-                        "en": {
-                            "title": "{{UX/UI}} Design",
-                            "text": "Creating elegant and efficient user experiences!"
-                        },
-                        "es": {
-                            "title": "Diseño {{UX/UI}}",
-                            "text": "¡Creando experiencias de usuario elegantes y eficientes!"
-                        },
-                        "fr": {
-                            "title": "Design {{UX/UI}}",
-                            "text": "Création d'expériences utilisateur élégantes et efficaces !"
-                        },
-                        "ko": {
-                            "title": "{{UX/UI}} 디자인",
-                            "text": "우아하고 효율적인 사용자 경험 창출!"
-                        }
-                    }
                 }
             ]
         },
@@ -240,7 +214,7 @@
                     "id": 3,
                     "img": "",
                     "faIcon": "fa-brands fa-node-js",
-                    "faIconColors": {"bg": "", "fill": "#339933"},
+                    "faIconColors": {"bg": "", "fill": "#DC2626"},
                     "date": {"year": 2020, "month": 1},
                     "percentage": 85,
                     "locales": {

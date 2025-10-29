@@ -1,5 +1,5 @@
 {
-    "name": "Maxime",
+    "name": "Maxime M.",
 
     "profilePictureUrl": "images/pictures/profile-picture.jpg",
     "resumePdfUrl": "",
@@ -14,28 +14,28 @@
             "localized_name_stylized": "{{Maxime}}",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
-                "Full-Stack Engineer",
+                "React/Next.js Expert",
                 "CTO / Tech Lead",
-                "Automation Specialist",
-                "AI Integration Expert"
+                "N8N/make Automation",
+                "AI Integrator"
             ]
         },
         "es": {
             "status_message_available_for_freelance": "¡Disponible para freelance!",
             "roles": [
-                "Ingeniero Full-Stack",
+                "Experto React/Next.js",
                 "CTO / Tech Lead",
-                "Especialista en Automatización",
-                "Experto en Integración IA"
+                "Automatización N8N/make",
+                "Integrador IA"
             ]
         },
         "fr": {
             "status_message_available_for_freelance": "Disponible pour freelance !",
             "roles": [
-                "Ingénieur Full-Stack",
+                "Expert React/Next.js",
                 "CTO / Tech Lead",
-                "Spécialiste Automatisation",
-                "Expert Intégration IA"
+                "Automatisation N8N/make",
+                "Intégrateur IA"
             ]
         },
         "ko": {
@@ -43,10 +43,10 @@
             "localized_name_stylized": "{{Maxime}}",
             "status_message_available_for_freelance": "프리랜스 가능합니다!",
             "roles": [
-                "풀스택 엔지니어",
+                "React/Next.js 전문가",
                 "CTO / 기술 리드",
-                "자동화 전문가",
-                "AI 통합 전문가"
+                "N8N/make 자동화",
+                "AI 통합 담당자"
             ]
         }
     }
