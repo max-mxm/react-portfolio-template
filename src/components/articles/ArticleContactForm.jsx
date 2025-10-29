@@ -13,7 +13,6 @@ import {MessageCard, MessageCardIcon, MessageCardBody, MessageCardFooter} from "
 import Input from "/src/components/forms/fields/Input.jsx"
 import Textarea from "/src/components/forms/fields/Textarea.jsx"
 import StandardButton from "/src/components/buttons/StandardButton.jsx"
-import * as botDetection from "/src/hooks/utils/_bot-detection-utils.js"
 
 /**
  * @param {ArticleDataWrapper} dataWrapper
@@ -68,8 +67,6 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
     const [fieldsBundle, setFieldsBundle] = useState(null)
     const [validationError, setValidationError] = useState(null)
     const [status, setStatus] = useState(windowStatus || ArticleContactForm.Status.WAITING_FOR_SUBMISSION)
-    const [submissionTimestamp] = useState(() => botDetection.generateSubmissionTimestamp())
-    const [honeypot, setHoneypot] = useState('')
 
     const name = fieldsBundle?.name
     const email = fieldsBundle?.email
@@ -114,36 +111,6 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
         e.stopPropagation && e.stopPropagation()
         navigation.forceScrollToTop()
 
-        // 1. Vérification du champ honeypot (piège à bot)
-        if(honeypot && honeypot.trim() !== '') {
-            console.warn('Bot détecté via honeypot')
-            return
-        }
-
-        // 2. Vérification du rate limiting côté client
-        const rateLimitCheck = botDetection.checkClientRateLimit()
-        if(!rateLimitCheck.allowed) {
-            const timeRemaining = botDetection.formatTimeUntilReset(rateLimitCheck.resetTime)
-            feedbacks.displayNotification(
-                language.getString("error"),
-                `Trop de tentatives d'envoi. Veuillez réessayer dans ${timeRemaining}.`,
-                "error"
-            )
-            return
-        }
-
-        // 3. Vérification du timing de soumission
-        const timingCheck = botDetection.validateSubmissionTiming(submissionTimestamp)
-        if(!timingCheck.valid) {
-            feedbacks.displayNotification(
-                language.getString("error"),
-                timingCheck.error,
-                "error"
-            )
-            return
-        }
-
-        // 4. Validation des champs du formulaire
         const apiValidation = api.validators.validateEmailRequest(name, email, subject, message)
         if(!apiValidation.success) {
             feedbacks.setActivitySpinnerVisible(true, dataWrapper.uniqueId, language.getString("sending_message"))
@@ -163,11 +130,7 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
         let apiResponse
         if(!fakeEmailRequests) {
             // Envoi via Vercel Function (Resend)
-            apiResponse = await api.handlers.sendEmailRequest(
-                apiValidation.bundle,
-                honeypot,
-                submissionTimestamp
-            )
+            apiResponse = await api.handlers.sendEmailRequest(apiValidation.bundle)
         }
         else {
             apiResponse = await api.handlers.dummyRequest()
@@ -202,9 +165,7 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
 
             {!didSubmit && (
                 <ArticleContactFormContentFields onInput={setFieldsBundle}
-                                                 didSubmit={didSubmit}
-                                                 honeypot={honeypot}
-                                                 setHoneypot={setHoneypot}/>
+                                                 didSubmit={didSubmit}/>
             )}
 
             {didSubmit && (
@@ -224,12 +185,10 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
 /**
  * @param {Function} onInput
  * @param {Boolean} didSubmit
- * @param {string} honeypot
- * @param {Function} setHoneypot
  * @return {JSX.Element}
  * @constructor
  */
-function ArticleContactFormContentFields({ onInput, didSubmit, honeypot, setHoneypot }) {
+function ArticleContactFormContentFields({ onInput, didSubmit }) {
     const language = useLanguage()
 
     const [name, setName] = useState('')
@@ -255,25 +214,6 @@ function ArticleContactFormContentFields({ onInput, didSubmit, honeypot, setHone
 
     return (
         <>
-            {/* Champ honeypot caché - piège à bots */}
-            <input
-                type="text"
-                name="website"
-                value={honeypot}
-                onChange={(e) => setHoneypot(e.target.value)}
-                style={{
-                    position: 'absolute',
-                    left: '-9999px',
-                    width: '1px',
-                    height: '1px',
-                    opacity: 0,
-                    pointerEvents: 'none'
-                }}
-                tabIndex={-1}
-                autoComplete="off"
-                aria-hidden="true"
-            />
-
             <RowFormGroup className={`${splitColClass}`}>
                 <RowFormGroupItem>
                     <Input id={`contact-form-name`}

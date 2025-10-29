@@ -71,11 +71,9 @@ const handlers = {
     /**
      * Envoie un email via la Vercel Function (Resend)
      * @param {Object} validationBundle - Données du formulaire validées
-     * @param {string} honeypot - Valeur du champ honeypot
-     * @param {string} submissionTime - Timestamp de démarrage du formulaire
      * @return {Promise<{success: boolean, error?: string}>}
      */
-    sendEmailRequest: async (validationBundle, honeypot = '', submissionTime = null) => {
+    sendEmailRequest: async (validationBundle) => {
         const response = { success: false }
 
         try {
@@ -94,9 +92,7 @@ const handlers = {
                     name: validationBundle.name,
                     email: validationBundle.email,
                     subject: validationBundle.subject,
-                    message: validationBundle.message,
-                    honeypot: honeypot,
-                    submissionTime: submissionTime
+                    message: validationBundle.message
                 })
             })
 
