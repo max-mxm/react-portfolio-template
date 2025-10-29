@@ -43,13 +43,9 @@ const validators = {
             errorParameter: error?.messageParameter,
             bundle: {
                 name: name,
-                from_name: name,
                 email: email,
-                from_email: email,
-                custom_subject: subject,
-                message: message,
-                custom_source: utils.url.getAbsoluteLocation(),
-                custom_source_name: "React Portfolio"
+                subject: subject,
+                message: message
             }
         }
     }

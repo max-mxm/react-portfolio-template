@@ -120,7 +120,10 @@ export default async function handler(req, res) {
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
     try {
-        const { name, email, subject, message, honeypot, submissionTime } = req.body;
+        // Log pour déboguer (à retirer après debug)
+        console.log('Body reçu:', req.body);
+
+        const { name, email, subject, message } = req.body;
 
         // Obtenir l'IP du client
         const clientIp = req.headers['x-forwarded-for'] ||
@@ -138,6 +141,8 @@ export default async function handler(req, res) {
         // 2. Valider les données
         const validation = validateFormData(req.body);
         if (!validation.valid) {
+            console.log('Validation échouée:', validation.error);
+            console.log('Données reçues:', { name, email, subject, message });
             return res.status(400).json({
                 success: false,
                 error: validation.error
