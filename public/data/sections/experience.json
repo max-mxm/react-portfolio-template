@@ -297,7 +297,7 @@
                     "dateEnd": {"now": true},
                     "locales": {
                         "en": {
-                            "title": "{{CTO}} / Automation Lead",
+                            "title": "{{CTO}} / Automation & AI",
                             "province": "Toulouse",
                             "country": "France",
                             "institution": "Davancorp (Startup)",
@@ -312,7 +312,7 @@
                             "tags": ["Next.js", "Supabase", "Make", "n8n", "GoHighLevel", "AI", "Node.js"]
                         },
                         "es": {
-                            "title": "{{CTO}} / Responsable Automatización",
+                            "title": "{{CTO}} / Automatización & IA",
                             "province": "Toulouse",
                             "country": "Francia",
                             "institution": "Davancorp (Startup)",
@@ -327,7 +327,7 @@
                             "tags": []
                         },
                         "fr": {
-                            "title": "{{CTO}} / Responsable Automatisation",
+                            "title": "{{CTO}} / Automatisation & IA",
                             "province": "Toulouse",
                             "country": "France",
                             "institution": "Davancorp (Startup)",
@@ -342,7 +342,7 @@
                             "tags": []
                         },
                         "ko": {
-                            "title": "{{CTO}} / 자동화 리드",
+                            "title": "{{CTO}} / 자동화 & AI",
                             "province": "툴루즈",
                             "country": "프랑스",
                             "institution": "Davancorp (스타트업)",
