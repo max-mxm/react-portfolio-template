@@ -4,7 +4,7 @@
  *
  * Cette fonction sécurisée côté serveur :
  * 1. Valide les données du formulaire
- * 2. Détecte les bots (honeypot, timing, rate limiting)
+ * 2. Rate limiting basique
  * 3. Envoie l'email via Resend
  */
 
@@ -15,8 +15,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 // Configuration
 const RATE_LIMIT_WINDOW = 60 * 60 * 1000; // 1 heure en millisecondes
 const MAX_REQUESTS_PER_WINDOW = 3;
-const MIN_SUBMISSION_TIME = 3000; // 3 secondes minimum
-const MAX_SUBMISSION_TIME = 60 * 60 * 1000; // 1 heure maximum
 
 // Store pour le rate limiting (en mémoire - pour production, utiliser Redis/DB)
 const submissionStore = new Map();
@@ -71,42 +69,26 @@ function checkRateLimit(ip) {
  * Valide les données du formulaire
  */
 function validateFormData(data) {
-    const { name, email, subject, message, honeypot, submissionTime } = data;
+    const { name, email, subject, message } = data;
 
     // 1. Vérifier que tous les champs requis sont présents
     if (!name || !email || !subject || !message) {
         return { valid: false, error: 'Tous les champs sont requis' };
     }
 
-    // 2. Vérifier le honeypot (champ caché que seuls les bots remplissent)
-    if (honeypot && honeypot.trim() !== '') {
-        return { valid: false, error: 'Bot détecté (honeypot)' };
-    }
-
-    // 3. Vérifier le timing (trop rapide = bot, trop lent = suspect)
-    if (submissionTime) {
-        const timeTaken = Date.now() - parseInt(submissionTime);
-        if (timeTaken < MIN_SUBMISSION_TIME) {
-            return { valid: false, error: 'Soumission trop rapide (bot suspect)' };
-        }
-        if (timeTaken > MAX_SUBMISSION_TIME) {
-            return { valid: false, error: 'Session expirée' };
-        }
-    }
-
-    // 4. Valider le format de l'email
+    // 2. Valider le format de l'email
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
         return { valid: false, error: 'Format d\'email invalide' };
     }
 
-    // 5. Vérifier la longueur minimale du message
+    // 3. Vérifier la longueur minimale du message
     const wordCount = message.trim().split(/\s+/).length;
     if (wordCount < 3) {
         return { valid: false, error: 'Le message doit contenir au moins 3 mots' };
     }
 
-    // 6. Détection basique de spam (ratio voyelles/consonnes)
+    // 4. Détection basique de spam (ratio voyelles/consonnes)
     const letters = message.toLowerCase().match(/[a-z]/g) || [];
     const vowels = message.toLowerCase().match(/[aeiouy]/g) || [];
     if (letters.length > 0) {
@@ -166,7 +148,7 @@ export default async function handler(req, res) {
         const emailResponse = await resend.emails.send({
             from: process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev',
             to: process.env.RESEND_TO_EMAIL || 'morellon.maxime@gmail.com',
-            subject: `[Portfolio] ${subject}`,
+            subject: `[Portfolio] ${subject} 🔥`,
             html: `
                 <h2>Nouveau message depuis votre portfolio</h2>
                 <p><strong>Nom :</strong> ${name}</p>
