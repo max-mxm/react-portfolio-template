@@ -234,51 +234,51 @@
             "items": [
                 {
                     "id": 1,
-                    "faIcon": "fa-solid fa-video",
+                    "faIcon": "fa-solid fa-user-graduate",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "locales": {
                         "en": {
-                            "title": "{{AI}} video editing",
-                            "text": "Learning to use AI tools to enhance my videos."
+                            "title": "{{Personal}} Development",
+                            "text": "Continuous self-improvement and learning new skills."
                         },
                         "es": {
-                            "title": "Edición de video con {{AI}}",
-                            "text": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+                            "title": "Desarrollo {{Personal}}",
+                            "text": "Mejora continua personal y aprendizaje de nuevas habilidades."
                         },
                         "fr": {
-                            "title": "Édition vidéo avec {{IA}}",
-                            "text": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+                            "title": "Développement {{Personnel}}",
+                            "text": "Amélioration continue de soi et apprentissage de nouvelles compétences."
                         },
                         "ko": {
-                            "title": "{{AI}} 비디오 편집",
-                            "text": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+                            "title": "{{개인}} 개발",
+                            "text": "지속적인 자기 개선과 새로운 기술 배우기."
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "faIcon": "fa-solid fa-palette",
+                    "faIcon": "fa-solid fa-users",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "locales": {
                         "en": {
-                            "title": "{{Arts}} & Illustration",
-                            "text": "Practicing digital art and exploring new styles."
+                            "title": "{{Sociology}}",
+                            "text": "Understanding human behavior and social dynamics."
                         },
                         "es": {
-                            "title": "{{Arte}} y Ilustración",
-                            "text": "Practicando arte digital y explorando nuevos estilos."
+                            "title": "{{Sociología}}",
+                            "text": "Comprender el comportamiento humano y las dinámicas sociales."
                         },
                         "fr": {
-                            "title": "{{Arts}} & Illustration",
-                            "text": "Pratiquer l'art numérique et explorer de nouveaux styles."
+                            "title": "{{Sociologie}}",
+                            "text": "Comprendre le comportement humain et les dynamiques sociales."
                         },
                         "ko": {
-                            "title": "{{예술}} 및 일러스트레이션",
-                            "text": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
+                            "title": "{{사회학}}",
+                            "text": "인간 행동과 사회적 역학 이해하기."
                         }
                     }
                 },
@@ -335,51 +335,52 @@
                 {
                     "id": 5,
                     "img": "",
-                    "faIcon": "fa-solid fa-camera-retro",
+                    "faIcon": "fa-solid fa-music",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "locales": {
                         "en": {
-                            "title": "{{Photography}} & Photoshop",
-                            "text": "Enhancing photos through creative editing techniques."
+                            "title": "Playing {{Piano}}",
+                            "text": "18 years of piano practice, exploring classical and modern pieces."
                         },
                         "es": {
-                            "title": "{{Fotografía}} y Photoshop",
-                            "text": "Mejorando fotos a través de técnicas creativas de edición."
+                            "title": "Tocar el {{Piano}}",
+                            "text": "18 años de práctica de piano, explorando piezas clásicas y modernas."
                         },
                         "fr": {
-                            "title": "{{Photographie}} & Photoshop",
-                            "text": "Améliorer des photos avec des techniques de montage créatives."
+                            "title": "Jouer du {{Piano}}",
+                            "text": "18 ans de pratique du piano, explorant des pièces classiques et modernes."
                         },
                         "ko": {
-                            "title": "{{사진}} 및 포토샵",
-                            "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                            "title": "{{피아노}} 연주",
+                            "text": "18년간의 피아노 연습, 클래식과 현대 곡 탐구."
                         }
                     }
                 },
                 {
                     "id": 6,
-                    "faIcon": "fa-solid fa-drum-steelpan",
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "locales": {
                         "en": {
-                            "title": "Playing {{drums}}",
-                            "text": "Exploring different genres and improving my skills."
+                            "title": "{{AI}} & LLM Evolution",
+                            "text": "Following technological advances in artificial intelligence and large language models."
                         },
                         "es": {
-                            "title": "Tocar {{batería}}",
-                            "text": "Explorando diferentes géneros y mejorando mis habilidades."
+                            "title": "Evolución {{IA}} & LLM",
+                            "text": "Siguiendo los avances tecnológicos en inteligencia artificial y modelos de lenguaje grandes."
                         },
                         "fr": {
-                            "title": "Jouer de la {{batterie}}",
-                            "text": "Explorer différents genres et améliorer mes compétences."
+                            "title": "Évolutions {{IA}} & LLM",
+                            "text": "Suivi des avancées technologiques en intelligence artificielle et modèles de langage."
                         },
                         "ko": {
-                            "title": "{{드럼}} 연주",
-                            "text": "다양한 장르를 탐험하고 기술을 향상시키기."
+                            "title": "{{AI}} 및 LLM 진화",
+                            "text": "인공지능 및 대규모 언어 모델의 기술 발전 추적."
                         }
                     }
                 }

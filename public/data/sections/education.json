@@ -43,7 +43,7 @@
                     "img": "",
                     "faIcon": "fa-solid fa-graduation-cap",
                     "faIconColors": {"bg": "#DC2626", "fill": "#FFF"},
-                    "dateStart": {"year": 2014, "month": 9},
+                    "dateStart": {"year": 2013, "month": 9},
                     "dateEnd": {"year": 2017, "month": 6},
                     "locales": {
                         "en": {
@@ -51,36 +51,36 @@
                             "province": "Toulouse",
                             "country": "France",
                             "institution": "Université Toulouse III - Paul Sabatier",
-                            "text": "Earned a Bachelor's degree with a strong foundation in [[mathematics and computer science]], focusing on algorithms, data structures, and programming fundamentals.",
+                            "text": "Earned a Bachelor's degree with a strong foundation in [[mathematics and computer science]], focusing on algorithms, data structures, and programming fundamentals. Discovered programming through [[low-level C language]], then expanded skills with [[Java]].",
                             "list": [],
-                            "tags": ["Mathematics", "Algorithms", "Programming"]
+                            "tags": ["C", "Java", "Algorithms", "Data Structures", "Mathematics"]
                         },
                         "es": {
                             "title": "{{Licenciatura}} en Matemáticas e Informática",
                             "province": "Toulouse",
                             "country": "Francia",
                             "institution": "Universidad Toulouse III - Paul Sabatier",
-                            "text": "Obtuve una licenciatura con una sólida base en [[matemáticas e informática]], enfocándome en algoritmos, estructuras de datos y fundamentos de programación.",
+                            "text": "Obtuve una licenciatura con una sólida base en [[matemáticas e informática]], enfocándome en algoritmos, estructuras de datos y fundamentos de programación. Descubrí la programación a través del [[lenguaje C de bajo nivel]], luego amplié mis habilidades con [[Java]].",
                             "list": [],
-                            "tags": []
+                            "tags": ["C", "Java", "Algoritmos", "Estructuras de Datos", "Matemáticas"]
                         },
                         "fr": {
                             "title": "{{Licence}} Mathématiques & Informatique",
                             "province": "Toulouse",
                             "country": "France",
                             "institution": "Université Toulouse III - Paul Sabatier",
-                            "text": "Licence avec une solide base en [[mathématiques et informatique]], axée sur les algorithmes, les structures de données et les fondamentaux de la programmation.",
+                            "text": "Licence avec une solide base en [[mathématiques et informatique]], axée sur les algorithmes, les structures de données et les fondamentaux de la programmation. Découverte du code avec la [[programmation bas niveau en langage C]], puis apprentissage du [[langage Java]].",
                             "list": [],
-                            "tags": []
+                            "tags": ["C", "Java", "Algorithmes", "Structures de Données", "Mathématiques"]
                         },
                         "ko": {
                             "title": "수학 및 컴퓨터 과학 {{학사}}",
                             "province": "툴루즈",
                             "country": "프랑스",
                             "institution": "툴루즈 III 대학교 - Paul Sabatier",
-                            "text": "알고리즘, 데이터 구조 및 프로그래밍 기초에 중점을 둔 [[수학 및 컴퓨터 과학]]의 견고한 기초를 갖춘 학사 학위 취득.",
+                            "text": "알고리즘, 데이터 구조 및 프로그래밍 기초에 중점을 둔 [[수학 및 컴퓨터 과학]]의 견고한 기초를 갖춘 학사 학위 취득. [[저수준 C 언어]]를 통해 프로그래밍을 발견한 후 [[Java]]로 기술을 확장.",
                             "list": [],
-                            "tags": []
+                            "tags": ["C", "Java", "알고리즘", "데이터 구조", "수학"]
                         }
                     }
                 },
@@ -89,8 +89,8 @@
                     "img": "",
                     "faIcon": "fa-solid fa-laptop-code",
                     "faIconColors": {"bg": "#2563EB", "fill": "#FFF"},
-                    "dateStart": {"year": 2017, "month": 9},
-                    "dateEnd": {"year": 2018, "month": 6},
+                    "dateStart": {"year": 2016, "month": 9},
+                    "dateEnd": {"year": 2017, "month": 6},
                     "locales": {
                         "en": {
                             "title": "{{Master 1}} in Software Development",
@@ -99,7 +99,7 @@
                             "institution": "Université Toulouse",
                             "text": "First year of Master's program focused on [[software engineering]], advanced programming, and software architecture patterns.",
                             "list": [],
-                            "tags": ["Software Engineering", "Architecture"]
+                            "tags": ["Java", "C", "Software Engineering", "Architecture", "Design Patterns"]
                         },
                         "es": {
                             "title": "{{Máster 1}} en Desarrollo de Software",
@@ -108,7 +108,7 @@
                             "institution": "Universidad de Toulouse",
                             "text": "Primer año de máster centrado en [[ingeniería de software]], programación avanzada y patrones de arquitectura de software.",
                             "list": [],
-                            "tags": []
+                            "tags": ["Java", "C", "Ingeniería de Software", "Arquitectura", "Patrones de Diseño"]
                         },
                         "fr": {
                             "title": "{{Master 1}} Développement Logiciel",
@@ -117,7 +117,7 @@
                             "institution": "Université de Toulouse",
                             "text": "Première année de Master axée sur l'[[ingénierie logicielle]], la programmation avancée et les patterns d'architecture logicielle.",
                             "list": [],
-                            "tags": []
+                            "tags": ["Java", "C", "Ingénierie Logicielle", "Architecture", "Design Patterns"]
                         },
                         "ko": {
                             "title": "소프트웨어 개발 {{석사 1년차}}",
@@ -126,7 +126,7 @@
                             "institution": "툴루즈 대학교",
                             "text": "[[소프트웨어 엔지니어링]], 고급 프로그래밍 및 소프트웨어 아키텍처 패턴에 중점을 둔 석사 과정 1년차.",
                             "list": [],
-                            "tags": []
+                            "tags": ["Java", "C", "소프트웨어 엔지니어링", "아키텍처", "디자인 패턴"]
                         }
                     }
                 },
@@ -135,11 +135,11 @@
                     "img": "",
                     "faIcon": "fa-solid fa-palette",
                     "faIconColors": {"bg": "#7C3AED", "fill": "#FFF"},
-                    "dateStart": {"year": 2018, "month": 9},
-                    "dateEnd": {"year": 2020, "month": 6},
+                    "dateStart": {"year": 2017, "month": 9},
+                    "dateEnd": {"year": 2018, "month": 6},
                     "locales": {
                         "en": {
-                            "title": "{{Master}} UX/UI & Software Development",
+                            "title": "{{Master 2}} UX/UI & Software Development",
                             "province": "Toulouse",
                             "country": "France",
                             "institution": "ENAC - École Nationale de l'Aviation Civile",
@@ -150,10 +150,10 @@
                                 "Human-Computer Interaction",
                                 "Full-Stack Development"
                             ],
-                            "tags": ["UX/UI", "Design", "Development"]
+                            "tags": ["Java", "C#", "UX/UI", "Design", "HCI", "Full-Stack"]
                         },
                         "es": {
-                            "title": "{{Máster}} UX/UI y Desarrollo de Software",
+                            "title": "{{Máster 2}} UX/UI y Desarrollo de Software",
                             "province": "Toulouse",
                             "country": "Francia",
                             "institution": "ENAC - Escuela Nacional de Aviación Civil",
@@ -164,10 +164,10 @@
                                 "Interacción Humano-Computadora",
                                 "Desarrollo Full-Stack"
                             ],
-                            "tags": []
+                            "tags": ["Java", "C#", "UX/UI", "Diseño", "IHM", "Full-Stack"]
                         },
                         "fr": {
-                            "title": "{{Master}} UX/UI & Développement Logiciel",
+                            "title": "{{Master 2}} UX/UI & Développement Logiciel",
                             "province": "Toulouse",
                             "country": "France",
                             "institution": "ENAC - École Nationale de l'Aviation Civile",
@@ -178,10 +178,10 @@
                                 "Interaction Humain-Machine",
                                 "Développement Full-Stack"
                             ],
-                            "tags": []
+                            "tags": ["Java", "C#", "UX/UI", "Design", "IHM", "Full-Stack"]
                         },
                         "ko": {
-                            "title": "UX/UI 및 소프트웨어 개발 {{석사}}",
+                            "title": "UX/UI 및 소프트웨어 개발 {{석사 2}}",
                             "province": "툴루즈",
                             "country": "프랑스",
                             "institution": "ENAC - 국립민간항공학교",
@@ -192,7 +192,7 @@
                                 "인간-컴퓨터 상호작용",
                                 "풀스택 개발"
                             ],
-                            "tags": []
+                            "tags": ["Java", "C#", "UX/UI", "디자인", "HCI", "풀스택"]
                         }
                     }
                 }

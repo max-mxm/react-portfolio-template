@@ -283,30 +283,6 @@
                     }
                 },
                 {
-                    "id": 6,
-                    "img": "",
-                    "faIcon": "fa-brands fa-docker",
-                    "faIconColors": {"bg": "", "fill": "#2496ED"},
-                    "date": {"year": 2019, "month": 1},
-                    "percentage": 75,
-                    "locales": {
-                        "en": {
-                            "title": "Docker",
-                            "text": "Containerization and deployment with Docker.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Contenedorización y despliegue con Docker."
-                        },
-                        "fr": {
-                            "text": "Conteneurisation et déploiement avec Docker."
-                        },
-                        "ko": {
-                            "text": "Docker로 컨테이너화 및 배포."
-                        }
-                    }
-                },
-                {
                     "id": 7,
                     "img": "",
                     "faIcon": "fa-brands fa-git",
@@ -327,6 +303,78 @@
                         },
                         "ko": {
                             "text": "Git 및 GitHub로 버전 관리 및 협업."
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-vial",
+                    "faIconColors": {"bg": "", "fill": "#17202C"},
+                    "date": {"year": 2021, "month": 1},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Cypress",
+                            "text": "End-to-end testing for modern web applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Pruebas de extremo a extremo para aplicaciones web modernas."
+                        },
+                        "fr": {
+                            "text": "Tests end-to-end pour applications web modernes."
+                        },
+                        "ko": {
+                            "text": "최신 웹 애플리케이션을 위한 엔드 투 엔드 테스팅."
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": "",
+                    "faIcon": "fa-solid fa-masks-theater",
+                    "faIconColors": {"bg": "", "fill": "#2EAD33"},
+                    "date": {"year": 2022, "month": 1},
+                    "percentage": 75,
+                    "locales": {
+                        "en": {
+                            "title": "Playwright",
+                            "text": "Cross-browser automation and testing framework.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Framework de automatización y pruebas multi-navegador."
+                        },
+                        "fr": {
+                            "text": "Framework d'automatisation et de tests cross-browser."
+                        },
+                        "ko": {
+                            "text": "크로스 브라우저 자동화 및 테스팅 프레임워크."
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": "",
+                    "faIcon": "fa-solid fa-wind",
+                    "faIconColors": {"bg": "", "fill": "#06B6D4"},
+                    "date": {"year": 2020, "month": 1},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Tailwind CSS",
+                            "text": "Utility-first CSS framework for rapid UI development.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Framework CSS utility-first para desarrollo rápido de UI."
+                        },
+                        "fr": {
+                            "text": "Framework CSS utility-first pour développement rapide d'interfaces."
+                        },
+                        "ko": {
+                            "text": "빠른 UI 개발을 위한 유틸리티 우선 CSS 프레임워크."
                         }
                     }
                 }
@@ -426,23 +474,23 @@
                     "id": 4,
                     "img": "",
                     "faIcon": "fa-solid fa-bolt",
-                    "faIconColors": {"bg": "", "fill": "#0891B2"},
-                    "date": {"year": 2024, "month": 1},
+                    "faIconColors": {"bg": "", "fill": "#FF4A00"},
+                    "date": {"year": 2023, "month": 1},
                     "percentage": 85,
                     "locales": {
                         "en": {
-                            "title": "Vercel AI SDK",
-                            "text": "Building AI-powered applications with Vercel AI SDK.",
+                            "title": "Zapier",
+                            "text": "Connecting apps and automating workflows with Zapier.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Construcción de aplicaciones potenciadas por IA con Vercel AI SDK."
+                            "text": "Conectando aplicaciones y automatizando flujos de trabajo con Zapier."
                         },
                         "fr": {
-                            "text": "Construction d'applications alimentées par l'IA avec Vercel AI SDK."
+                            "text": "Connexion d'applications et automatisation de workflows avec Zapier."
                         },
                         "ko": {
-                            "text": "Vercel AI SDK로 AI 기반 애플리케이션 구축."
+                            "text": "Zapier로 앱 연결 및 워크플로우 자동화."
                         }
                     }
                 },
