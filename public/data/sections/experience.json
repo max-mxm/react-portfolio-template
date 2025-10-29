@@ -231,7 +231,7 @@
                     "dateEnd": {"year": 2024, "month": 12},
                     "locales": {
                         "en": {
-                            "title": "{{Tech Lead}} / Senior Developer",
+                            "title": "{{Senior React/Java}} Developer",
                             "province": "Paris",
                             "country": "France",
                             "institution": "Ministry of Interior",
@@ -245,7 +245,7 @@
                             "tags": ["React", "Java", "TypeScript", "Keycloak", "Jenkins"]
                         },
                         "es": {
-                            "title": "{{Tech Lead}} / Desarrollador Senior",
+                            "title": "Desarrollador {{Senior React/Java}}",
                             "province": "París",
                             "country": "Francia",
                             "institution": "Ministerio del Interior",
@@ -259,7 +259,7 @@
                             "tags": []
                         },
                         "fr": {
-                            "title": "{{Tech Lead}} / Développeur Senior",
+                            "title": "Développeur {{Senior React/Java}}",
                             "province": "Paris",
                             "country": "France",
                             "institution": "Ministère de l'Intérieur",
@@ -273,7 +273,7 @@
                             "tags": []
                         },
                         "ko": {
-                            "title": "{{테크 리드}} / 시니어 개발자",
+                            "title": "{{시니어 React/Java}} 개발자",
                             "province": "파리",
                             "country": "프랑스",
                             "institution": "내무부",
@@ -298,7 +298,7 @@
                     "locales": {
                         "en": {
                             "title": "{{CTO}} / Automation & AI",
-                            "province": "Toulouse",
+                            "province": "Paris",
                             "country": "France",
                             "institution": "Davancorp (Startup)",
                             "text": "Startup specialized in short-term rental management. [[Complete automation of inter-service workflows]] with focus on:",
@@ -313,7 +313,7 @@
                         },
                         "es": {
                             "title": "{{CTO}} / Automatización & IA",
-                            "province": "Toulouse",
+                            "province": "Paris",
                             "country": "Francia",
                             "institution": "Davancorp (Startup)",
                             "text": "Startup especializada en gestión de alquileres de corta duración. [[Automatización completa de flujos de trabajo interservicios]] con enfoque en:",
@@ -328,7 +328,7 @@
                         },
                         "fr": {
                             "title": "{{CTO}} / Automatisation & IA",
-                            "province": "Toulouse",
+                            "province": "Paris",
                             "country": "France",
                             "institution": "Davancorp (Startup)",
                             "text": "Startup spécialisée dans la gestion locative courte durée. [[Automatisation complète des workflows inter-services]] avec focus sur :",
