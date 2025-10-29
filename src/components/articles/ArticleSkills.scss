@@ -85,6 +85,9 @@ div.article-skills-item-avatar-round {
     min-height: var(--target-size);
     height: var(--target-size);
 
+    background-color: transparent;
+    color: var(--theme-primary);
+
     border-radius: 100%;
     border: 3px solid var(--theme-boards-background);
     font-size: calc(var(--target-size)*0.45)!important;

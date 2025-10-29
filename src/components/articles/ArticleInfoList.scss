@@ -48,11 +48,15 @@ div.article-info-list-item {
     padding: var(--padding);
     min-height: var(--min-height);
 
+    [data-theme="light"] & {
+        background-color: rgba(37, 99, 235, 0.05);
+    }
+
     &-avatar {
         min-width: calc(var(--avatar-size) * 1.2);
         font-size: calc(var(--avatar-size) / 2)!important;
-        background-color: var(--theme-dark)!important;
-        color: var(--theme-texts)!important;
+        background-color: var(--theme-primary)!important;
+        color: var(--theme-texts-inv)!important;
         border-radius: $standard-border-radius 0 0 $standard-border-radius;
     }
 

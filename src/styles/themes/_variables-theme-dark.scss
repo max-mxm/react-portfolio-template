@@ -31,29 +31,29 @@
 
 @import "theme-variables-builder";
 
-$primary: #9dff8e;
-$secondary: #a4afb5;
-$dark: #161616;
-$danger: #fdd2d2;
-$muted: #6c757d;
+$primary: #6eb6ff;
+$secondary: #a4c4d9;
+$dark: #0a1628;
+$danger: #ff6b6b;
+$muted: #5a7a99;
 
-$base-bg: #0c0c0c;
-$base-bg-light: #161616;
-$base-bg-dark: #090909;
+$base-bg: #0d1b2a;
+$base-bg-light: #1b263b;
+$base-bg-dark: #0a1628;
 
-$texts: #EEEEEE;
-$texts-inverted: #111111;
+$texts: #e0e9f0;
+$texts-inverted: #0d1b2a;
 
-$base-container-bg: #181818;
-$base-popover-bg: #0e0e0e;
-$base-boards: lighten($base-container-bg, 3%);
-$base-info-badges: lighten($dark, 3%);
-$empty: darken($base-container-bg, 3%);
-$empty-accent: #131313;
+$base-container-bg: #1b263b;
+$base-popover-bg: #15202e;
+$base-boards: #223449;
+$base-info-badges: #1b263b;
+$empty: #15202e;
+$empty-accent: #192736;
 
-$borders: #1D1D1D;
-$scrollbar-track: #101010;
-$scrollbar-thumb: #32343a;
+$borders: #2d3f55;
+$scrollbar-track: #15202e;
+$scrollbar-thumb: #3d5571;
 
 :root {
     @include build-theme(
