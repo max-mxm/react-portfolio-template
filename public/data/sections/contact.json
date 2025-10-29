@@ -98,7 +98,7 @@
                     "faIcon": "fa-brands fa-linkedin",
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "@maximemorellon",
-                    "link": {"href": "hwww.linkedin.com/in/maxime-morellon-7a9403112", "tooltipString": "open_website"},
+                    "link": {"href": "https://www.linkedin.com/in/maxime-morellon-7a9403112", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "LinkedIn"},
                         "es": {"title": "LinkedIn"},
