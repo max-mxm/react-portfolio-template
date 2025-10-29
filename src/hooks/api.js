@@ -69,13 +69,58 @@ const handlers = {
     },
 
     /**
-     * @param {Object} validationBundle
-     * @param {String} publicKey
-     * @param {String} serviceId
-     * @param {String} templateId
-     * @return {Promise<{success: boolean}>}
+     * Envoie un email via la Vercel Function (Resend)
+     * @param {Object} validationBundle - Données du formulaire validées
+     * @param {string} honeypot - Valeur du champ honeypot
+     * @param {string} submissionTime - Timestamp de démarrage du formulaire
+     * @return {Promise<{success: boolean, error?: string}>}
      */
-    sendEmailRequest: async (validationBundle, publicKey, serviceId, templateId) => {
+    sendEmailRequest: async (validationBundle, honeypot = '', submissionTime = null) => {
+        const response = { success: false }
+
+        try {
+            // Construction de l'URL de l'API avec la base URL
+            // Gère à la fois le dev local et la production
+            const baseUrl = import.meta.env.BASE_URL || '/'
+            const apiPath = `${baseUrl}api/send-email`.replace(/\/+/g, '/')
+
+            // Appel à la Vercel Function
+            const result = await fetch(apiPath, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    name: validationBundle.name,
+                    email: validationBundle.email,
+                    subject: validationBundle.subject,
+                    message: validationBundle.message,
+                    honeypot: honeypot,
+                    submissionTime: submissionTime
+                })
+            })
+
+            const data = await result.json()
+            response.success = data.success
+            response.error = data.error
+
+            if (!data.success) {
+                console.error('Erreur envoi email:', data.error)
+            }
+        } catch (error) {
+            console.error('Erreur requête:', error)
+            response.success = false
+            response.error = 'Erreur réseau. Vérifiez votre connexion.'
+        }
+
+        return response
+    },
+
+    /**
+     * LEGACY: Ancienne fonction EmailJS (conservée pour référence)
+     * @deprecated Utilisez sendEmailRequest à la place
+     */
+    sendEmailRequestLegacy: async (validationBundle, publicKey, serviceId, templateId) => {
         emailjs.init(publicKey)
 
         const response = {success: false}

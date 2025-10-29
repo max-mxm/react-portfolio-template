@@ -3,7 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/react-portfolio-template/',
+    // Pour Vercel: utilisez '/' (pas de sous-chemin)
+    // Pour GitHub Pages: changez en '/react-portfolio-template/'
+    base: '/',
     plugins: [react()],
     build: {
         rollupOptions: {
