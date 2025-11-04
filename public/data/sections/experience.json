@@ -41,43 +41,43 @@
                 {
                     "id": 1,
                     "img": "",
-                    "faIcon": "fa-solid fa-code",
-                    "faIconColors": {"bg": "#0066CC", "fill": "#FFF"},
+                    "faIcon": "fa-solid fa-gas-pump",
+                    "faIconColors": {"bg": "#EE3124", "fill": "#FFF"},
                     "dateStart": {"year": 2018, "month": 1},
                     "dateEnd": {"year": 2019, "month": 12},
                     "locales": {
                         "en": {
                             "title": "{{Java}} Developer",
-                            "province": "Paris",
+                            "province": "Toulouse",
                             "country": "France",
-                            "institution": "Capgemini - Client: Total",
+                            "institution": "TotalEnergies",
                             "text": "Industrial IoT project for supervision and maintenance of connected equipment. Development of [[robust microservices]] for IoT data collection and processing.",
                             "list": [],
                             "tags": ["Java", "Spring Boot", "Kafka", "Docker", "IoT"]
                         },
                         "es": {
                             "title": "Desarrollador {{Java}}",
-                            "province": "París",
+                            "province": "Toulouse",
                             "country": "Francia",
-                            "institution": "Capgemini - Cliente: Total",
+                            "institution": "TotalEnergies",
                             "text": "Proyecto IoT industrial para supervisión y mantenimiento de equipos conectados. Desarrollo de [[microservicios robustos]] para recopilación y procesamiento de datos IoT.",
                             "list": [],
                             "tags": []
                         },
                         "fr": {
                             "title": "Développeur {{Java}}",
-                            "province": "Paris",
+                            "province": "Toulouse",
                             "country": "France",
-                            "institution": "Capgemini - Client : Total",
+                            "institution": "TotalEnergies",
                             "text": "Projet IoT industriel pour la supervision et la maintenance d'équipements connectés. Développement de [[microservices robustes]] pour la collecte et le traitement des données IoT.",
                             "list": [],
                             "tags": []
                         },
                         "ko": {
                             "title": "{{Java}} 개발자",
-                            "province": "파리",
+                            "province": "툴루즈",
                             "country": "프랑스",
-                            "institution": "Capgemini - 고객: Total",
+                            "institution": "TotalEnergies",
                             "text": "연결된 장비의 감독 및 유지보수를 위한 산업용 IoT 프로젝트. IoT 데이터 수집 및 처리를 위한 [[견고한 마이크로서비스]] 개발.",
                             "list": [],
                             "tags": []
@@ -87,44 +87,44 @@
                 {
                     "id": 2,
                     "img": "",
-                    "faIcon": "fa-brands fa-react",
-                    "faIconColors": {"bg": "#61DAFB", "fill": "#20232A"},
+                    "faIcon": "fa-solid fa-plane",
+                    "faIconColors": {"bg": "#00205B", "fill": "#FFF"},
                     "dateStart": {"year": 2019, "month": 1},
                     "dateEnd": {"year": 2020, "month": 12},
                     "locales": {
                         "en": {
                             "title": "{{React}} Frontend Developer",
-                            "province": "",
-                            "country": "Internal Project",
-                            "institution": "Personal Training",
-                            "text": "Personal training and participation in an internal React project. Development of [[dynamic and responsive components]]. Skills improvement on modern frontend and SPA architectures.",
+                            "province": "Toulouse",
+                            "country": "France",
+                            "institution": "Airbus",
+                            "text": "Industrial web application project for Airbus. Development of [[dynamic and responsive React components]] for production monitoring tools. Full React stack implementation with modern frontend architecture.",
                             "list": [],
                             "tags": ["React", "Redux", "Node.js", "JavaScript"]
                         },
                         "es": {
                             "title": "Desarrollador Frontend {{React}}",
-                            "province": "",
-                            "country": "Proyecto Interno",
-                            "institution": "Formación Personal",
-                            "text": "Formación personal y participación en proyecto React interno. Desarrollo de [[componentes dinámicos y responsive]]. Mejora de competencias en frontend moderno y arquitecturas SPA.",
+                            "province": "Toulouse",
+                            "country": "Francia",
+                            "institution": "Airbus",
+                            "text": "Proyecto de aplicación web industrial para Airbus. Desarrollo de [[componentes React dinámicos y responsive]] para herramientas de seguimiento de producción. Implementación full React con arquitectura frontend moderna.",
                             "list": [],
                             "tags": []
                         },
                         "fr": {
                             "title": "Développeur Frontend {{React}}",
-                            "province": "",
-                            "country": "Projet Interne",
-                            "institution": "Formation Personnelle",
-                            "text": "Formation personnelle et participation à un projet interne React. Développement de [[composants dynamiques et responsive]]. Montée en compétence sur le front moderne et les architectures SPA.",
+                            "province": "Toulouse",
+                            "country": "France",
+                            "institution": "Airbus",
+                            "text": "Projet d'application web industrielle pour Airbus. Développement de [[composants React dynamiques et responsive]] pour des outils de suivi de production. Implémentation full React avec architecture frontend moderne.",
                             "list": [],
                             "tags": []
                         },
                         "ko": {
                             "title": "{{React}} 프론트엔드 개발자",
-                            "province": "",
-                            "country": "내부 프로젝트",
-                            "institution": "개인 교육",
-                            "text": "개인 교육 및 내부 React 프로젝트 참여. [[동적이고 반응형 컴포넌트]] 개발. 현대적인 프론트엔드 및 SPA 아키텍처에 대한 역량 향상.",
+                            "province": "툴루즈",
+                            "country": "프랑스",
+                            "institution": "Airbus",
+                            "text": "Airbus를 위한 산업용 웹 애플리케이션 프로젝트. 생산 모니터링 도구를 위한 [[동적이고 반응형 React 컴포넌트]] 개발. 현대적인 프론트엔드 아키텍처로 Full React 스택 구현.",
                             "list": [],
                             "tags": []
                         }

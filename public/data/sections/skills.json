@@ -213,24 +213,24 @@
                 {
                     "id": 3,
                     "img": "",
-                    "faIcon": "fa-brands fa-node-js",
-                    "faIconColors": {"bg": "", "fill": "#DC2626"},
+                    "faIcon": "fa-solid fa-n",
+                    "faIconColors": {"bg": "", "fill": "#000000"},
                     "date": {"year": 2020, "month": 1},
-                    "percentage": 80,
+                    "percentage": 95,
                     "locales": {
                         "en": {
-                            "title": "Node.js",
-                            "text": "Building scalable backend services with Node.js.",
+                            "title": "Next.js",
+                            "text": "Building high-performance, SEO-optimized React applications with server-side rendering and static site generation.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Creando servicios backend escalables con Node.js."
+                            "text": "Construcción de aplicaciones React de alto rendimiento optimizadas para SEO con renderizado del lado del servidor y generación de sitios estáticos."
                         },
                         "fr": {
-                            "text": "Construction de services backend évolutifs avec Node.js."
+                            "text": "Construction d'applications React performantes et optimisées SEO avec rendu côté serveur et génération de sites statiques."
                         },
                         "ko": {
-                            "text": "Node.js로 확장 가능한 백엔드 서비스 구축."
+                            "text": "서버 사이드 렌더링 및 정적 사이트 생성을 통한 고성능, SEO 최적화 React 애플리케이션 구축."
                         }
                     }
                 },
@@ -312,45 +312,45 @@
                     "faIcon": "fa-solid fa-vial",
                     "faIconColors": {"bg": "", "fill": "#17202C"},
                     "date": {"year": 2021, "month": 1},
-                    "percentage": 80,
+                    "percentage": 85,
                     "locales": {
                         "en": {
                             "title": "Cypress",
-                            "text": "End-to-end testing for modern web applications.",
+                            "text": "End-to-end testing and component testing for reliable web applications with real-time browser automation.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Pruebas de extremo a extremo para aplicaciones web modernas."
+                            "text": "Pruebas de extremo a extremo y de componentes para aplicaciones web confiables con automatización de navegador en tiempo real."
                         },
                         "fr": {
-                            "text": "Tests end-to-end pour applications web modernes."
+                            "text": "Tests end-to-end et tests de composants pour applications web fiables avec automatisation navigateur en temps réel."
                         },
                         "ko": {
-                            "text": "최신 웹 애플리케이션을 위한 엔드 투 엔드 테스팅."
+                            "text": "실시간 브라우저 자동화를 통한 신뢰할 수 있는 웹 애플리케이션을 위한 엔드 투 엔드 및 컴포넌트 테스팅."
                         }
                     }
                 },
                 {
                     "id": 9,
                     "img": "",
-                    "faIcon": "fa-solid fa-masks-theater",
-                    "faIconColors": {"bg": "", "fill": "#2EAD33"},
-                    "date": {"year": 2022, "month": 1},
-                    "percentage": 75,
+                    "faIcon": "fa-solid fa-flask",
+                    "faIconColors": {"bg": "", "fill": "#C21325"},
+                    "date": {"year": 2020, "month": 1},
+                    "percentage": 85,
                     "locales": {
                         "en": {
-                            "title": "Playwright",
-                            "text": "Cross-browser automation and testing framework.",
+                            "title": "Jest / React Testing Library",
+                            "text": "Unit testing and integration testing for React components with comprehensive coverage and best practices.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Framework de automatización y pruebas multi-navegador."
+                            "text": "Pruebas unitarias e integración para componentes React con cobertura completa y mejores prácticas."
                         },
                         "fr": {
-                            "text": "Framework d'automatisation et de tests cross-browser."
+                            "text": "Tests unitaires et d'intégration pour composants React avec couverture complète et bonnes pratiques."
                         },
                         "ko": {
-                            "text": "크로스 브라우저 자동화 및 테스팅 프레임워크."
+                            "text": "포괄적인 커버리지와 모범 사례를 통한 React 컴포넌트 단위 및 통합 테스팅."
                         }
                     }
                 },
