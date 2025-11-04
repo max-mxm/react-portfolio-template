@@ -192,7 +192,7 @@
                     "faIcon": "fa-brands fa-java",
                     "faIconColors": {"bg": "", "fill": "#0295c2", "fillLight": "#007396"},
                     "date": {"year": 2018, "month": 1},
-                    "percentage": 90,
+                    "percentage": 70,
                     "locales": {
                         "en": {
                             "title": "Java / Spring Boot",
@@ -216,7 +216,7 @@
                     "faIcon": "fa-brands fa-node-js",
                     "faIconColors": {"bg": "", "fill": "#DC2626"},
                     "date": {"year": 2020, "month": 1},
-                    "percentage": 85,
+                    "percentage": 80,
                     "locales": {
                         "en": {
                             "title": "Node.js",
@@ -264,7 +264,7 @@
                     "faIcon": "fa-solid fa-database",
                     "faIconColors": {"bg": "", "fill": "#336791"},
                     "date": {"year": 2020, "month": 1},
-                    "percentage": 85,
+                    "percentage": 75,
                     "locales": {
                         "en": {
                             "title": "PostgreSQL / Supabase",
@@ -288,7 +288,7 @@
                     "faIcon": "fa-brands fa-git",
                     "faIconColors": {"bg": "", "fill": "#F05032"},
                     "date": {"year": 2018, "month": 1},
-                    "percentage": 95,
+                    "percentage": 80,
                     "locales": {
                         "en": {
                             "title": "Git / GitHub",
