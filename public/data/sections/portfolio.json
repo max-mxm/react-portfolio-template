@@ -72,8 +72,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
+                            {"href": "https://www.linkedin.com/in/maxime-morellon-7a9403112", "tooltipString": "see_on_linkedin", "faIcon": "fa-brands fa-linkedin"}
                         ],
                         "screenshots": [
                             "images/pictures/screenshot-demo-landscape-1.png",

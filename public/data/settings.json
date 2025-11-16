@@ -75,16 +75,17 @@
     ],
 
     "consoleMessageForDevelopers": {
-        "title": "\uD83D\uDDA5️ Hey there, fellow developer!",
+        "title": "🚀 Curious developer detected!",
         "items": [
             {
-                "description": "This is an open-source template based on the React framework.",
+                "description": "Nice to see you in the console! I'm Maxime - I build fast, accessible, and beautiful web experiences.",
                 "list": [],
                 "listStyle": "none"
             },
             {
-                "description": "Other frameworks and plugins used in the project include:",
+                "description": "This site runs on modern web tech:",
                 "list": [
+                    "React.js & Vite ⚡",
                     "Bootstrap 5: https://getbootstrap.com/",
                     "Smooth Scrollbar: https://tinyurl.com/4yhm4n4a",
                     "Swiper: https://swiperjs.com/",
@@ -95,17 +96,18 @@
                 "listStyle": "bulleted"
             },
             {
-                "description": "Clone it and customize it for your own portfolio:",
+                "description": "Template credits:",
                 "list": [
+                    "React Portfolio Template by Ryan Balieiro",
                     "https://github.com/ryanbalieiro/react-portfolio-template"
                 ],
-                "listStyle": "none"
+                "listStyle": "bulleted"
             },
             {
-                "description": "Developer Info:",
+                "description": "Want to collaborate?",
                 "list": [
-                    "GitHub: https://github.com/ryanbalieiro",
-                    "Website: https://ryanbalieiro.com"
+                    "LinkedIn: https://www.linkedin.com/in/maxime-morellon-7a9403112",
+                    "Email: morellon.maxime@gmail.com"
                 ],
                 "listStyle": "bulleted"
             }

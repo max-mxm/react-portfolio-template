@@ -53,9 +53,9 @@
                 },
                 {
                     "id": 3,
-                    "label": "@maxime",
-                    "link": {"href": "https://github.com/max-mxm", "tooltipString": "see_on_github"},
-                    "faIcon": "fa-brands fa-github"
+                    "label": "Maxime Morellon",
+                    "link": {"href": "https://www.linkedin.com/in/maxime-morellon-7a9403112", "tooltipString": "see_on_linkedin"},
+                    "faIcon": "fa-brands fa-linkedin"
                 }
             ]
         },
@@ -81,16 +81,16 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "text": "<p>{{Full-stack engineer}} passionate about new technologies, I evolved from backend development to creating [[complete solutions]], combining React, automation, and artificial intelligence.</p><p>With a background in mathematics and computer science, complemented by UX/UI training at ENAC, I help companies optimize their internal workflows and create [[high-performance digital tools]].</p><p>Today, I specialize in {{productivity}}, {{automation}}, and creating useful SaaS solutions. I enjoy transforming ideas into concrete products, simplifying complex processes, and creating efficient and elegant digital experiences.</p><p>Looking forward to collaborating [[with you!]]</p>"
+                            "text": "<p>{{Senior front-end engineer}} specialized in React, I've developed strong expertise in UX/UI, accessibility, and web/SEO optimization. Passionate about productivity and automation, I now integrate {{AI}} into creating modern and efficient [[web solutions]].</p><p>In my most recent experience as {{CTO}} of DavanCorp, I implemented numerous tools and automations that transformed internal management and improved [[operational performance]].</p>"
                         },
                         "es": {
-                            "text": "<p>{{Ingeniero full-stack}} apasionado por las nuevas tecnologías, evolucioné del desarrollo backend a la creación de [[soluciones completas]], combinando React, automatización e inteligencia artificial.</p><p>Con formación en matemáticas e informática, complementada con capacitación en UX/UI en ENAC, ayudo a las empresas a optimizar sus flujos de trabajo internos y crear [[herramientas digitales de alto rendimiento]].</p><p>Hoy me especializo en {{productividad}}, {{automatización}} y creación de soluciones SaaS útiles. Disfruto transformando ideas en productos concretos, simplificando procesos complejos y creando experiencias digitales eficientes y elegantes.</p><p>¡Espero colaborar [[contigo!]]</p>"
+                            "text": "<p>{{Ingeniero senior front-end}} especializado en React, he desarrollado una sólida experiencia en UX/UI, accesibilidad y optimización web/SEO. Apasionado por la productividad y la automatización, ahora integro la {{IA}} en la creación de [[soluciones web]] modernas y eficientes.</p><p>En mi experiencia más reciente como {{CTO}} de DavanCorp, implementé numerosas herramientas y automatizaciones que transformaron la gestión interna y mejoraron el [[rendimiento operacional]].</p>"
                         },
                         "fr": {
-                            "text": "<p>{{Ingénieur full-stack}} passionné par les nouvelles technologies, j'ai évolué du développement back-end à la création de [[solutions complètes]], alliant React, automatisation et intelligence artificielle.</p><p>Avec une formation en mathématiques et informatique, complétée par une formation UX/UI à l'ENAC, j'aide les entreprises à optimiser leurs flux internes et à créer des [[outils digitaux performants]].</p><p>Aujourd'hui, je me spécialise dans la {{productivité}}, l'{{automatisation}} et la création de SaaS utiles. J'aime transformer les idées en produits concrets, simplifier les processus complexes et créer des expériences numériques efficaces et élégantes.</p><p>Au plaisir de collaborer [[avec vous !]]</p>"
+                            "text": "<p>{{Ingénieur senior front-end}}, spécialisé en React, j'ai développé une forte expertise en UX/UI, accessibilité et optimisation web/SEO. Passionné par la productivité et l'automatisation, j'intègre aujourd'hui l'{{IA}} dans la création de [[solutions web]] modernes et efficaces.</p><p>Lors de ma dernière expérience en tant que {{CTO}} de DavanCorp, j'ai mis en place de nombreux outils et automatisations qui ont transformé la gestion interne et amélioré la [[performance opérationnelle]].</p>"
                         },
                         "ko": {
-                            "text": "<p>새로운 기술에 열정적인 {{풀스택 엔지니어}}로서, 백엔드 개발에서 React, 자동화 및 인공지능을 결합한 [[완전한 솔루션]] 제작으로 발전했습니다.</p><p>수학 및 컴퓨터 과학 배경과 ENAC의 UX/UI 교육을 통해 기업의 내부 워크플로우를 최적화하고 [[고성능 디지털 도구]]를 만들도록 돕습니다.</p><p>현재 {{생산성}}, {{자동화}} 및 유용한 SaaS 솔루션 제작을 전문으로 합니다. 아이디어를 구체적인 제품으로 전환하고, 복잡한 프로세스를 단순화하며, 효율적이고 우아한 디지털 경험을 만드는 것을 좋아합니다.</p><p>[[함께]] 협업하기를 기대합니다!</p>"
+                            "text": "<p>React 전문 {{시니어 프론트엔드 엔지니어}}로서 UX/UI, 접근성 및 웹/SEO 최적화에 대한 강력한 전문 지식을 개발했습니다. 생산성과 자동화에 열정적이며, 이제 현대적이고 효율적인 [[웹 솔루션]]을 만드는 데 {{AI}}를 통합합니다.</p><p>DavanCorp의 {{CTO}}로서의 최근 경험에서 내부 관리를 변화시키고 [[운영 성과]]를 개선한 수많은 도구와 자동화를 구현했습니다.</p>"
                         }
                     }
                 }
