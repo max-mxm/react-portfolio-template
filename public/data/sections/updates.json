@@ -271,11 +271,11 @@
                             "text": "Emocionado de anunciar el inicio del desarrollo de mi propia Saas: [[SCANOR]], una solución de inspección de propiedades. Construcción de una aplicación web y móvil integral para informes automatizados de estado de propiedades, diseñada para optimizar el proceso de inspección de alquileres."
                         },
                         "fr": {
-                            "title": "Lancement du Développement de la Saas {{SCANOR}}",
+                            "title": "Début du développement de {{SCANOR}}",
                             "province": "Paris",
                             "country": "France",
                             "institution": "",
-                            "text": "Ravi d'annoncer le début du développement de ma propre Saas : [[SCANOR]], une solution d'état des lieux. Création d'une application web et mobile complète pour des rapports d'état des lieux automatisés, conçue pour fluidifier le processus d'inspection locative."
+                            "text": "Ravi d'annoncer le début du développement de mon propre SaaS : [[SCANOR]], une solution d'état des lieux. Création d'une application web et mobile complète pour des rapports d'état des lieux automatisés, conçue pour fluidifier le processus d'inspection locative."
                         },
                         "ko": {
                             "title": "{{SCANOR}} Saas 개발 시작",
