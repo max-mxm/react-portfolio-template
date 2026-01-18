@@ -293,8 +293,8 @@
                     "img": "",
                     "faIcon": "fa-solid fa-rocket",
                     "faIconColors": {"bg": "#7C3AED", "fill": "#FFF"},
-                    "dateStart": {"year": 2024, "month": 1},
-                    "dateEnd": {"now": true},
+                    "dateStart": {"year": 2025, "month": 1},
+                    "dateEnd":  {"year": 2025, "month": 12},
                     "locales": {
                         "en": {
                             "title": "{{CTO}} / Automation & AI",

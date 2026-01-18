@@ -248,46 +248,6 @@
                 },
                 {
                     "id": 2,
-                    "date": {"year": 2025, "month": 9},
-                    "preview": {
-                        "links": [],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "{{SCANOR}} Saas Development Launch",
-                            "province": "Paris",
-                            "country": "France",
-                            "institution": "",
-                            "text": "Excited to announce the start of development for my own Saas: [[SCANOR]], a property inspection solution. Building a comprehensive web and mobile application for automated property condition reports, designed to streamline the rental inspection process."
-                        },
-                        "es": {
-                            "title": "Lanzamiento del Desarrollo de Saas {{SCANOR}}",
-                            "province": "Paris",
-                            "country": "Francia",
-                            "institution": "",
-                            "text": "Emocionado de anunciar el inicio del desarrollo de mi propia Saas: [[SCANOR]], una solución de inspección de propiedades. Construcción de una aplicación web y móvil integral para informes automatizados de estado de propiedades, diseñada para optimizar el proceso de inspección de alquileres."
-                        },
-                        "fr": {
-                            "title": "Début du développement de {{SCANOR}}",
-                            "province": "Paris",
-                            "country": "France",
-                            "institution": "",
-                            "text": "Ravi d'annoncer le début du développement de mon propre SaaS : [[SCANOR]], une solution d'état des lieux. Création d'une application web et mobile complète pour des rapports d'état des lieux automatisés, conçue pour fluidifier le processus d'inspection locative."
-                        },
-                        "ko": {
-                            "title": "{{SCANOR}} Saas 개발 시작",
-                            "province": "툴루즈",
-                            "country": "프랑스",
-                            "institution": "",
-                            "text": "자체 SAS인 [[SCANOR]] 부동산 점검 솔루션의 개발 시작을 발표하게 되어 기쁩니다. 임대 검사 프로세스를 간소화하도록 설계된 자동화된 부동산 상태 보고서를 위한 포괄적인 웹 및 모바일 애플리케이션을 구축 중입니다."
-                        }
-                    }
-                },
-                {
-                    "id": 3,
                     "date": {"year": 2025, "month": 10},
                     "preview": {
                         "links": [],
@@ -346,6 +306,76 @@
                                 "다국어 지원 (EN, ES, FR, KO)",
                                 "다크/라이트 테마 전환",
                                 "연락처 양식 및 전문 정보"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2026, "month": 1},
+                    "preview": {
+                        "links": [
+                            {"faIcon": "fa-solid fa-globe", "href": "https://scanorr.app"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Scanorr}} Launch",
+                            "province": "Paris",
+                            "country": "France",
+                            "institution": "",
+                            "text": "Launched [[Scanorr]], an AI-powered property inspection application. Key features include:",
+                            "list": [
+                                "Automatic room and equipment detection via AI",
+                                "Offline mode with automatic sync",
+                                "Voice dictation for fast documentation",
+                                "Electronic signature and ALUR-compliant PDF reports",
+                                "Complete a T3 inspection in ~45 minutes"
+                            ]
+                        },
+                        "es": {
+                            "title": "Lanzamiento de {{Scanorr}}",
+                            "province": "Paris",
+                            "country": "Francia",
+                            "institution": "",
+                            "text": "Lanzamiento de [[Scanorr]], una aplicación de inspección inmobiliaria impulsada por IA. Características principales:",
+                            "list": [
+                                "Detección automática de habitaciones y equipos mediante IA",
+                                "Modo offline con sincronización automática",
+                                "Dictado de voz para documentación rápida",
+                                "Firma electrónica e informes PDF conformes a ALUR",
+                                "Completar una inspección T3 en ~45 minutos"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Lancement de {{Scanorr}}",
+                            "province": "Paris",
+                            "country": "France",
+                            "institution": "",
+                            "text": "Mise en ligne de [[Scanorr]], une application d'état des lieux propulsée par l'IA. Fonctionnalités clés :",
+                            "list": [
+                                "Détection automatique des pièces et équipements par IA",
+                                "Mode hors ligne avec synchronisation automatique",
+                                "Dictée vocale pour une documentation rapide",
+                                "Signature électronique et rapports PDF conformes à la loi ALUR",
+                                "Réalisation d'un état des lieux T3 en ~45 minutes"
+                            ]
+                        },
+                        "ko": {
+                            "title": "{{Scanorr}} 출시",
+                            "province": "파리",
+                            "country": "프랑스",
+                            "institution": "",
+                            "text": "AI 기반 부동산 점검 애플리케이션 [[Scanorr]] 출시. 주요 기능:",
+                            "list": [
+                                "AI를 통한 자동 방 및 장비 감지",
+                                "자동 동기화가 포함된 오프라인 모드",
+                                "빠른 문서화를 위한 음성 받아쓰기",
+                                "전자 서명 및 ALUR 준수 PDF 보고서",
+                                "T3 점검을 ~45분 내에 완료"
                             ]
                         }
                     }
