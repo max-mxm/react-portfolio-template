@@ -171,18 +171,18 @@
                     "percentage": 95,
                     "locales": {
                         "en": {
-                            "title": "React / Next.js",
-                            "text": "Expert in React and Next.js for building modern web applications.",
+                            "title": "React",
+                            "text": "Expert in React for building modern web applications.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Experto en React y Next.js para construir aplicaciones web modernas."
+                            "text": "Experto en React para construir aplicaciones web modernas."
                         },
                         "fr": {
-                            "text": "Expert en React et Next.js pour créer des applications web modernes."
+                            "text": "Expert en React pour créer des applications web modernes."
                         },
                         "ko": {
-                            "text": "최신 웹 애플리케이션 구축을 위한 React 및 Next.js 전문가."
+                            "text": "최신 웹 애플리케이션 구축을 위한 React 전문가."
                         }
                     }
                 },
@@ -215,7 +215,7 @@
                     "img": "",
                     "faIcon": "fa-solid fa-n",
                     "faIconColors": {"bg": "", "fill": "#000000"},
-                    "date": {"year": 2020, "month": 1},
+                    "date": {"year": 2021, "month": 1},
                     "percentage": 95,
                     "locales": {
                         "en": {
@@ -239,7 +239,7 @@
                     "img": "",
                     "faIcon": "fa-solid fa-t",
                     "faIconColors": {"bg": "", "fill": "#3178C6"},
-                    "date": {"year": 2021, "month": 1},
+                    "date": {"year": 2019, "month": 1},
                     "percentage": 90,
                     "locales": {
                         "en": {
@@ -602,23 +602,23 @@
                     "locales": {
                         "en": {
                             "title": "English",
-                            "text": "Fluent in both spoken and written English; confident in professional communication.",
-                            "level": "Fluent"
+                            "text": "Professional proficiency in both spoken and written English; confident in professional communication.",
+                            "level": "Professional"
                         },
                         "es": {
                             "title": "Inglés",
-                            "text": "Fluido en inglés hablado y escrito; seguro en la comunicación profesional.",
-                            "level": "Fluido"
+                            "text": "Competencia profesional en inglés hablado y escrito; seguro en la comunicación profesional.",
+                            "level": "Profesional"
                         },
                         "fr": {
                             "title": "Anglais",
-                            "text": "Courant à l'oral et à l'écrit; confiant dans la communication professionnelle.",
-                            "level": "Courant"
+                            "text": "Maîtrise professionnelle de l'anglais à l'oral et à l'écrit; confiant dans la communication professionnelle.",
+                            "level": "Professionnel"
                         },
                         "ko": {
                             "title": "영어",
-                            "text": "구어 및 서면 영어에 능통; 전문적인 의사소통에 자신감이 있습니다.",
-                            "level": "유창함"
+                            "text": "구어 및 서면 영어에 대한 전문적 숙련도; 전문적인 의사소통에 자신감이 있습니다.",
+                            "level": "전문적"
                         }
                     }
                 }
